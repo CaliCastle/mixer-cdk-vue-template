@@ -13,7 +13,7 @@ export default class HelloWorld extends Vue {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .hello {
   width: 100vw;
   height: 100vh;
