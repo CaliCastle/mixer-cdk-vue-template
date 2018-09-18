@@ -4,33 +4,16 @@
   "private": true,
   "author": "Cali Castle",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "test:unit": "vue-cli-service test:unit"
-  },
-  "dependencies": {
-    "vue": "^2.5.17",
-    "vue-class-component": "^6.0.0",
-    "vue-property-decorator": "^7.0.0",
-    "vuex": "^3.0.1"
+    "fmt:style": "prettier --single-quote --trailing-comma all --print-width 100 --write \"src/**/*.js\""
   },
   "devDependencies": {
-    "@types/jest": "^23.1.4",
-    "@vue/cli-plugin-babel": "^3.0.0",
-    "@vue/cli-plugin-typescript": "^3.0.0",
-    "@vue/cli-plugin-unit-jest": "^3.0.0",
-    "@vue/cli-service": "^3.0.0",
-    "@vue/test-utils": "^1.0.0-beta.20",
-    "babel-core": "7.0.0-bridge.0",
-    "node-sass": "^4.9.0",
-    "sass-loader": "^7.0.1",
-    "ts-jest": "^23.0.0",
-    "typescript": "^3.0.0",
-    "vue-template-compiler": "^2.5.17",
     "@mixer/cdk-webpack-plugin": "^0.1.5",
     "clean-webpack-plugin": "^0.1.19",
     "copy-webpack-plugin": "^4.5.2",
-    "webpack-cli": "^3.1.0"
-  }
+    "prettier": "^1.11.1",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.7"
+  },
+  "dependencies": {}
 }
