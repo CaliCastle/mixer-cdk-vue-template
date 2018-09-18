@@ -20,5 +20,6 @@ export default class HelloWorld extends Vue {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #fff;
 }
 </style>
