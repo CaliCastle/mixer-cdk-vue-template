@@ -16,6 +16,8 @@
     "vuex": "^3.0.1"
   },
   "devDependencies": {
+    "@mixer/cdk-std": "^0.2.11",
+    "@mixer/cdk-webpack-plugin": "^0.1.2",
     "@types/jest": "^23.1.4",
     "@vue/cli-plugin-babel": "^3.0.0",
     "@vue/cli-plugin-typescript": "^3.0.0",

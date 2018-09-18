@@ -7,13 +7,19 @@
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 import HelloWorld from '@/components/HelloWorld.vue';
+import Mixer from '@/helpers/mixer';
 
 @Component({
   components: {
     HelloWorld,
   },
 })
-export default class App extends Vue {}
+
+export default class App extends Vue {
+    public mounted() {
+        Mixer.isLoaded();
+    }
+}
 </script>
 
 <style lang="scss">
